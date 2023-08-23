@@ -39,7 +39,7 @@ const app = express();
 const PORT = 3000;
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/myapp', {
+mongoose.connect("mongodb+srv://saadisheikh000:saad1234@cluster0.jvo02u9.mongodb.net/?retryWrites=true&w=majority", {
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true,
 });
